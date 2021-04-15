@@ -11,5 +11,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # git config
 ssh-keygen -t ed25519 -C "YOUR_EMAIL_HERE"
+ssh-add ~/.ssh/id_ed25519
 git config --global user.name "Wilfred-Chan"
 git config --global user.email "69495364+wilfred-chan@users.noreply.github.com"
