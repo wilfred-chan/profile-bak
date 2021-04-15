@@ -3,7 +3,13 @@ sudo apt-get upgrade
 echo Y | sudo apt-get remove vim.tiny
 echo Y | sudo apt-get install vim
 echo Y | sudo apt-get install git
+echo Y | sudo apt-get install curl
 
+# Plug for vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# zsh & ohmyzsh
 sudo apt install zsh
 chsh -s $(which zsh)
 # relogin to use zsh
