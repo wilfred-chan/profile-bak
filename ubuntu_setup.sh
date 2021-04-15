@@ -14,3 +14,9 @@ ssh-keygen -t ed25519 -C "YOUR_EMAIL_HERE"
 ssh-add ~/.ssh/id_ed25519
 git config --global user.name "Wilfred-Chan"
 git config --global user.email "69495364+wilfred-chan@users.noreply.github.com"
+
+# appearance
+# gnome extension
+echo Y | sudo apt install gnome-tweak-tool
+# font
+echo Y | sudo apt install fonts-firacode
