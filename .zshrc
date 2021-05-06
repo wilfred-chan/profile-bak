@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/chan/.oh-my-zsh"
+export ZSH="/home/$YOURUSERNAME/.oh-my-zsh"
 
 # Path to my personal shell scripts
 export PATH=$HOME/Scripts:$PATH
